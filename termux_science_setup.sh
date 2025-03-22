@@ -56,7 +56,6 @@ check_success "OpenMP configuration fix"
 echo "Installing pyzmq and Jupyter..."
 pip install pyzmq
 pip install jupyter
-pip install ipympl
 check_success "Jupyter installation"
 
 # Patch ZMQ library with correct Python version
