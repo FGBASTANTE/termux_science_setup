@@ -69,6 +69,8 @@ Alternatively, you can access it from another device on the same network by usin
 
 ## Troubleshooting
 
+Tested in Samsung Galaxy Tab S9+ without errors 
+
 ### Common Issues
 
 1. **Out of memory errors**
