@@ -4,7 +4,7 @@ A collection of scripts to set up a complete data science environment in Termux 
 
 ## Overview
 
-This repository provides scripts to easily install and test a comprehensive scientific computing and data analysis environment on Android using Termux. With these scripts, you can transform your Android device into a portable data science workstation with Jupyter notebooks and all the popular scientific Python libraries.
+This repository provides scripts to easily install and test a comprehensive scientific computing and data analysis environment on Android using Termux. With these scripts, you can transform your Android device into a portable data science workstation with Jupyter notebooks and popular scientific Python libraries.
 
 ## Features
 
@@ -17,7 +17,7 @@ This repository provides scripts to easily install and test a comprehensive scie
   - Matplotlib, Seaborn
   - Scikit-learn, Statsmodels
   - OpenCV
-  - Jupyter Notebook
+  - Jupyter Lab
 
 ## Requirements
 
@@ -35,8 +35,8 @@ This repository provides scripts to easily install and test a comprehensive scie
 pkg install git
 git clone https://github.com/FGBASTANTE/termux_science_setup.git
 cd termux_science_setup
-chmod +x setup_science.sh
-./setup_science.sh
+chmod +x termux_science_setup.sh
+./termux_science_setup.sh
 ```
 
 The installation process may take 30-60 minutes depending on your device's speed and internet connection.
@@ -46,7 +46,7 @@ The installation process may take 30-60 minutes depending on your device's speed
 After installation, you can verify that everything is working correctly by running the test script:
 
 ```
-python test_libraries.py
+python scientific-libraries-test.py
 ```
 
 This will check that all libraries are properly installed and functioning.
