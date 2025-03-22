@@ -32,7 +32,7 @@ This repository provides scripts to easily install and test a comprehensive scie
 2. Open Termux and run the following commands:
 
 ```bash
-pkg install git
+pkg install -y git
 git clone https://github.com/FGBASTANTE/termux_science_setup.git
 cd termux_science_setup
 chmod +x termux_science_setup.sh
