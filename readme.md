@@ -23,7 +23,7 @@ This repository provides scripts to easily install and test a comprehensive scie
 
 - Android device
 - [Termux](https://github.com/termux/termux-app) (available on F-Droid)
-- At least 4GB of free storage
+- At least 6GB of free storage
 - 4GB or more RAM recommended
 
 ## Installation
