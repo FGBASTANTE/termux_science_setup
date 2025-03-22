@@ -24,7 +24,7 @@ This repository provides scripts to easily install and test a comprehensive scie
 - Android device
 - [Termux](https://github.com/termux/termux-app) (available on F-Droid)
 - At least 4GB of free storage
-- 2GB or more RAM recommended
+- 4GB or more RAM recommended
 
 ## Installation
 
@@ -45,19 +45,18 @@ The installation process may take 30-60 minutes depending on your device's speed
 
 After installation, you can verify that everything is working correctly by running the test script:
 
-```bash
-chmod +x test_libraries.py
-./test_libraries.py
+```
+python test_libraries.py
 ```
 
 This will check that all libraries are properly installed and functioning.
 
 ## Usage
 
-Once installation is complete, you can start a Jupyter notebook server:
+Once installation is complete, you can start a Jupyter server:
 
 ```bash
-jupyter notebook
+jupyter lab
 ```
 
 Since Termux doesn't have a built-in browser, you'll need to:
@@ -83,13 +82,6 @@ Alternatively, you can access it from another device on the same network by usin
 3. **Library import errors**
    - Check the test script output for details
    - Try reinstalling the specific package
-
-### Getting Help
-
-If you encounter issues not covered here:
-
-1. Check the [Issues](https://github.com/FGBASTANTE/termux_science_setup/issues) section
-2. Create a new issue with details of your problem
 
 ## Contributing
 
