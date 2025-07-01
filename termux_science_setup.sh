@@ -123,6 +123,11 @@ cd statsmodels
 CFLAGS+=" -U__ANDROID_API__ -D__ANDROID_API__=$API_LEVEL" MATHLIB=m LDFLAGS="-lpython$PYTHON_VERSION" python -m pip install . --no-build-isolation
 check_success "Statsmodels installation"
 
+# Install Gemini-Cli
+pkg install nodejs
+npm install -g @google/gemini-cli
+check_success "Gemini-Cli installation"
+
 # Clean up
 echo "Cleaning package cache..."
 pip cache purge
