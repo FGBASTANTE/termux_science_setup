@@ -18,6 +18,7 @@ This repository provides scripts to easily install and test a comprehensive scie
   - Scikit-learn, Statsmodels
   - OpenCV
   - Jupyter Lab
+  - Gemini-Cli
 
 ## Requirements
 
